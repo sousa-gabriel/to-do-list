@@ -1,50 +1,56 @@
-# React + TypeScript + Vite
+<h2 align="center">
+TodoList RocketSeat
+</h2>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <a href="#%EF%B8%8F-about-the-project">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Técnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-getting-started">Introdução/a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-contribute">Como contribuir </a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-license">Licença</a>
+</p>
 
-Currently, two official plugins are available:
+## 🧑‍💻 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TodoList é um aplicativo desenvolvido em ReactJS, que permite o usuario criar uma lista de todo para que ele possa ir marcando assim que concluir as tarefas e pode tambem excluir elas quando achar necessario.
 
-## Expanding the ESLint configuration
+## 🚀 Technologies
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* React JS
 
-- Configure the top-level `parserOptions` property like this:
+* Vite
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+* Styled Components
+
+
+## 💻 Getting started
+
+### Requirements
+
+Certifique-se de ter o ambiente de desenvolvimento ReactJS configurado em sua máquina.
+
+**Clone o projeto e acesse a pasta**
+
+```bash
+$ git clone && cd to-do-list
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+**Siga os passos abaixo**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+```bash
+# Install the dependencies
+$ yarn
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+$ yarn dev
+
+
 ```
+
+## 📲 Vídeo de Demonstração
+
+
+https://github.com/user-attachments/assets/559a0fa6-e755-4394-9323-ff7322ecab14
+
+
+
+
